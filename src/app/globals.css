@@ -1,0 +1,125 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+.dark {
+  --background: #111827;
+  --foreground: #f9fafb;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+@custom-variant dark (&:is(.dark *));
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+/* Tiptap Editor Styles */
+.tiptap {
+  outline: none;
+}
+
+.tiptap p.is-editor-empty:first-child::before {
+  color: #adb5bd;
+  content: attr(data-placeholder);
+  float: left;
+  height: 0;
+  pointer-events: none;
+}
+
+.tiptap h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 0.5em;
+  color: var(--foreground);
+  letter-spacing: -0.025em;
+}
+
+.tiptap h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  color: var(--foreground);
+  opacity: 0.9;
+}
+
+.tiptap p {
+  line-height: 1.5;
+  margin-bottom: 0;
+  color: var(--foreground);
+  opacity: 0.8;
+}
+
+.tiptap ul {
+  list-style-type: disc;
+  padding-left: 1.5em;
+  margin-bottom: 1.25em;
+}
+
+.tiptap ol {
+  list-style-type: decimal;
+  padding-left: 1.5em;
+  margin-bottom: 1.25em;
+}
+
+.tiptap code {
+  background-color: #f3f4f6;
+  padding: 0.2em 0.4em;
+  border-radius: 0.375rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.875em;
+}
+
+.tiptap pre {
+  background: #1f2937;
+  color: #f9fafb;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1.25em;
+  overflow-x: auto;
+}
+
+.tiptap pre code {
+  background: none;
+  color: inherit;
+  padding: 0;
+}
+
+/* Custom transitions and scrollbars */
+.editor-size-sm .tiptap p, .editor-size-sm .tiptap h1, .editor-size-sm .tiptap h2, .editor-size-sm .tiptap li {
+  font-size: 0.875rem !important;
+}
+
+.editor-size-lg .tiptap p, .editor-size-lg .tiptap h1, .editor-size-lg .tiptap h2, .editor-size-lg .tiptap li {
+  font-size: 1.125rem !important;
+}
+
+.editor-size-base .tiptap p, .editor-size-base .tiptap h1, .editor-size-base .tiptap h2, .editor-size-base .tiptap li {
+  font-size: 1rem !important;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e5e7eb;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d1d5db;
+}
