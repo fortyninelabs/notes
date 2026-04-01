@@ -2,10 +2,12 @@ const Database = require('better-sqlite3');
 const path = require('path');
 const fs = require('fs');
 const { v4: uuidv4 } = require('uuid');
+const { app } = require('electron');
 
 // DEV → Projektordner
 // PROD → Electron userData (kommt aus main.js)
-const dbPath = process.env.DB_PATH || path.resolve(process.cwd(), 'notes.db');
+/* const dbPath = process.env.DB_PATH || path.resolve(process.cwd(), 'notes.db'); */
+const dbPath = path.join(app.getPath('userData'), 'notes.db');
 
 console.log("DB PATH:", dbPath);
 

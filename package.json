@@ -5,6 +5,7 @@
   "build": {
     "appId": "ch.49labs.notes",
     "productName": "Notes",
+    "artifactName": "Notes-Setup-${version}.${ext}",
     "directories": {
       "output": "dist"
     },
