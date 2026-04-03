@@ -43,6 +43,17 @@ Keine Registrierung. Keine Cloud. Keine Konfiguration.
 
 ---
 
+### Hinweis zur Windows‑Warnmeldung
+
+Da Notes aktuell noch kein Code‑Signing‑Zertifikat besitzt, kann Windows beim Installieren eine Warnung anzeigen („Die App ist nicht verifiziert“).  
+Das ist bei neuer oder unabhängiger Software normal und kein Sicherheitsrisiko.
+
+Du kannst die Installation über  
+**„Weitere Informationen“ → „Trotzdem ausführen“**  
+fortsetzen.
+
+---
+
 ## 🔒 Datenschutz & DSGVO
 
 Notes ist von Grund auf so entwickelt, dass deine Daten **niemals** dein Gerät verlassen.
