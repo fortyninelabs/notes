@@ -1,41 +1,37 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Notes — Minimalistische, lokale und DSGVO‑konforme Notiz‑App für Windows
 
-## Getting Started
+Notes ist eine schnelle, moderne und vollständig lokale Notiz‑App für Windows.  
+Entwickelt für Menschen, die Wert auf **Privatsphäre**, **Schnelligkeit** und **Fokus** legen — ohne Cloud, ohne Konto, ohne Tracking.
 
-First, run the development server:
+![screenshot](./assets/screenshot.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Offline First** – alle Daten bleiben ausschließlich auf deinem Gerät  
+- **Privacy‑First** – keine Cloud, kein Tracking, keine Accounts  
+- **DSGVO‑konform** – vollständige Datenkontrolle durch lokale Speicherung  
+- **Zentrale lokale Datenbank** – ultraschnell & robust  
+- **Automatisches Speichern** jeder Änderung  
+- **Kategorien & Volltextsuche** – alles sofort finden  
+- **Markdown‑Unterstützung** inkl. Syntax‑Highlighting  
+- **Light & Dark Mode** – automatisch oder manuell  
+- **Deutsch & Englisch** – vollständige Lokalisierung  
+- **Drag & Drop** für Notizen und Kategorien  
+- **Minimalistisches Windows‑UI** – klar, schnell, fokussiert  
+- **Sofort‑Start** – App öffnet in Millisekunden  
+- **Keine Abhängigkeiten** – läuft komplett ohne Internet  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📦 Download
 
-To learn more about Next.js, take a look at the following resources:
+Lade die aktuelle Version direkt herunter:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+👉 **[Notes für Windows herunterladen](https://github.com/fortyninelabs/notes/releases/latest)**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# notes
-A privacy‑first, fully local notes application.
->>>>>>> 03debe3d8f896e0e669bde51dd7614e2774c7b04
