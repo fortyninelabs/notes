@@ -1,7 +1,7 @@
 # Notes — Minimalistische, lokale und DSGVO‑konforme Notiz‑App für Windows
 
-Notes ist eine schnelle, moderne und vollständig lokale Notiz‑App für Windows.  
-Entwickelt für Menschen, die Wert auf **Privatsphäre**, **Schnelligkeit** und **Fokus** legen — ohne Cloud, ohne Konto, ohne Tracking.
+**Notes ist eine ultraschnelle, vollständig lokale Notiz‑App für Windows.**  
+Keine Cloud. Keine Accounts. Keine Telemetrie. 100% deiner Daten bleiben auf deinem Gerät.
 
 ![screenshot](./assets/screenshot.png)
 
@@ -26,9 +26,8 @@ Entwickelt für Menschen, die Wert auf **Privatsphäre**, **Schnelligkeit** und 
 
 ## 📦 Download
 
-Lade die aktuelle Version direkt herunter:
-
-👉 **[Notes für Windows herunterladen](https://github.com/fortyninelabs/notes/releases/latest)**
+👉 **[Notes für Windows herunterladen](https://github.com/fortyninelabs/notes/releases/latest)**  
+(Installer, keine Registrierung erforderlich)
 
 ---
 
@@ -39,24 +38,18 @@ Lade die aktuelle Version direkt herunter:
 3. Notes starten  
 4. Schreiben
 
-Keine Registrierung. Keine Cloud. Keine Konfiguration.
-
 ---
 
-### Hinweis zur Windows‑Warnmeldung
+### ⚠️ Windows‑Warnmeldung
 
-Da Notes aktuell noch kein Code‑Signing‑Zertifikat besitzt, kann Windows beim Installieren eine Warnung anzeigen („Die App ist nicht verifiziert“).  
-Das ist bei neuer oder unabhängiger Software normal und kein Sicherheitsrisiko.
-
-Du kannst die Installation über  
-**„Weitere Informationen“ → „Trotzdem ausführen“**  
-fortsetzen.
+Da Notes aktuell noch kein Code‑Signing‑Zertifikat besitzt, kann Windows eine Warnung anzeigen.  
+Über **„Weitere Informationen“ → „Trotzdem ausführen“** kannst du die Installation fortsetzen.
 
 ---
 
 ## 🔒 Datenschutz & DSGVO
 
-Notes ist von Grund auf so entwickelt, dass deine Daten **niemals** dein Gerät verlassen.
+Notes ist so entwickelt, dass deine Daten **niemals** dein Gerät verlassen:
 
 - Keine Cloud  
 - Keine Telemetrie  
@@ -66,28 +59,33 @@ Notes ist von Grund auf so entwickelt, dass deine Daten **niemals** dein Gerät 
 - 100% lokal  
 - 100% unter deiner Kontrolle  
 
-Damit erfüllt Notes die Anforderungen der DSGVO auf natürliche Weise.
-
 ---
 
 ## 🗺 Roadmap
 
 - 🔐 Passwortschutz / App‑Lock  
 - 🔒 Lokale Verschlüsselung  
-- 💾 Lokale Backups (automatisch & manuell)  
-- 🕒 Versionierung von Notizen (Änderungsverlauf)  
-- 🔄 Optionaler Sync (End‑to‑End lokal verschlüsselt)  
-- 📝 Erweiterte Markdown‑Features  
-- 📤 Export‑Optionen (PDF, Markdown, Text)  
-- 🎨 Themes & Personalisierung  
-- 🤖 Lokale KI‑Features (On‑Device)  
-- 📱 Mobile Version (optional)
+- 💾 Lokale Backups  
+- 🕒 Versionierung von Notizen  
+- 🔄 Optionaler Sync (End‑to‑End verschlüsselt)  
+- 📝 Markdown‑Features  
+- 📤 Export‑Optionen  
+- 🎨 Themes  
+- 🤖 Lokale KI‑Features  
+- 📱 Mobile Version  
+
+---
+
+## ⭐ Unterstützen
+
+Wenn dir Notes gefällt, freue ich mich über einen **Star** auf GitHub.  
+Das hilft dem Projekt enorm.
 
 ---
 
 ## 🤝 Feedback
 
-Feedback, Ideen oder Fehler gefunden  
+Fehler gefunden oder Ideen?  
 **support@fortyninelabs.com**
 
 ---
