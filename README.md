@@ -94,6 +94,3 @@ Fehler gefunden oder Ideen?
 
 MIT License  
 © fortyninelabs
-
-
-
