@@ -74,6 +74,9 @@ Damit erfüllt Notes die Anforderungen der DSGVO auf natürliche Weise.
 
 - 🔐 Passwortschutz / App‑Lock  
 - 🔒 Lokale Verschlüsselung  
+- 💾 Lokale Backups (automatisch & manuell)  
+- 🕒 Versionierung von Notizen (Änderungsverlauf)  
+- 🔄 Optionaler Sync (End‑to‑End lokal verschlüsselt)  
 - 📝 Erweiterte Markdown‑Features  
 - 📤 Export‑Optionen (PDF, Markdown, Text)  
 - 🎨 Themes & Personalisierung  
